@@ -1,12 +1,12 @@
-a=int(input("enter the number:"))
-l=len(str(a))
-i=a
-sum=0
-while a>0:
-    b=(a%10)**l
-    sum=sum+b
-    a=a//10
-if sum==i:
-    print("armstrong")
-else:
-    print("no")        
+# a=int(input("enter the number:"))
+# b=a
+# l=len(str(a))
+# sum=0
+# while a>0:
+#     c=(b%10)**l
+#     sum=sum+c
+#     a=a//10
+# if sum==b:
+#     print("armstrong")
+# else:
+#     print("nooo")        
